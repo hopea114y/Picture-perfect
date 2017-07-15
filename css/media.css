@@ -1,0 +1,262 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header {
+		height: 770px;
+	}
+	.header-desc {
+		margin-top: 215px;
+	}
+	.iphone img {
+		position: absolute;
+    bottom: 200px;
+    left: -15px;
+	}
+	.something-new-desc {
+		margin-top: 177px;
+	}
+	.nav-middle li {
+		width: 236px;
+	}
+	.nav-middle li:nth-child(3) .fa-heart-o {
+		top: 35px;
+    left: 65px;
+	}
+	.nav-middle-line-2 li:nth-child(1) {
+		width: 473px;
+		position: relative;
+		bottom: 3px;
+	}
+	.nav-middle-line-2 li {
+		width: 235px;
+	}
+	.nav-middle li:nth-child(4) {
+		position: relative;
+    top: 27px;
+	}
+	.nav-middle-line-2 li:nth-child(2) {
+		position: relative;
+		bottom: 3px;
+	}
+	.details-h2 h2 {
+		text-align: center;
+	}
+	.more-power {
+		height: 630px;
+		margin-top: 40px;
+	}
+	.more-power-section {
+		margin-top: 215px;
+	}
+	.reasons {
+		height: 450px;
+	}
+	.reasons-h3 {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.reasons .site {
+		left: 5px;
+    bottom: 125px;
+	}
+	.solo, .plan {
+		margin-top: 75px;
+    width: 455px;
+	}
+	footer {
+		height: 575px;
+	}
+	.buy-section {
+		height: 550px;
+	}
+	.footer-uls h5 {
+		padding-right: 115px;
+	}
+	.footer-ul-3 h5 {
+		padding-right: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header-desc {
+		margin-top: 250px;
+	}
+	.something-new-desc {
+		margin-top: 240px;
+	}
+	.iphone img {
+		bottom: 270px;
+    left: -60px;
+	}
+	.nav-middle li {
+		width: 310px;
+	}
+	.nav-middle li:nth-child(4) {
+		top: 0;
+	}
+	.nav-middle-line-2 li {
+		width: 310px;
+	}
+	.nav-middle-line-2 li:nth-child(1) {
+		width: 620px;
+		bottom: 0;
+	}
+	.nav-middle-line-2 li:nth-child(2) {
+		bottom: 24px;
+	}
+	.more-power-section {
+		margin-top: 250px;
+	}
+	.reasons {
+		height: 500px;
+	}
+	.reasons .site {
+		bottom: 200px;
+	}
+	.solo, .plan {
+		width: 360px;
+	}
+	footer {
+		height: 730px;
+	}
+	.footer-search {
+		margin-top: 70px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header-desc h1 {
+		font-size: 49px;
+	}
+	.something-new {
+		margin-top: 45px;
+		z-index: 9999;
+	}
+	.something-new-desc {
+		margin-top: 25px;
+	}
+	.iphone img {
+		bottom: 475px;
+    left: 195px;
+	}
+	.details {
+		margin-top: 50px;
+	}
+	.nav-middle-line-2 li:nth-child(1) {
+		width: 310px;
+	}
+	.web h5, .performance h5, .clultral h5, .sustainability h5 {
+		text-align: center;
+	}
+	.more-power-section {
+		margin-top: 265px;
+	}
+	.reasons {
+		height: 630px;
+	}
+	.web-based h5, .team-login h5, .support h5 {
+		text-align: center;
+	}
+	.reasons .site {
+		bottom: 490px;
+	}
+	.buy-section {
+		height: 930px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header {
+		width: 100%;
+	}
+	.iphone {
+		display: none;
+	}
+	.nav-middle li:nth-child(4) {
+		left: -4px;
+	}
+	.nav-middle-line-2 li:nth-child(1) {
+		width: 310px;
+	}
+	.nav-middle-line-2 li:nth-child(3) {
+		position: relative;
+		top: -24px;
+	}
+	.details {
+		margin-top: 35px;
+	}
+	.more-power-section {
+		margin-top: 255px;
+	}
+	.more-power-section h2 {
+		font-size: 41px;
+	}
+	.reasons {
+		height: 875px;
+	}
+	.reasons-h3 {
+		margin-top: 20px;
+	}
+	.reasons .site {
+		bottom: 0;
+		transform: none;
+	}
+	footer {
+		height: 790px;
+	}
+	.footer-desc {
+		margin-top: 70px;
+	}
+	.footer-search input[type="text"] {
+		width: 288px;
+	}
+	.footer-search .ok {
+		left: 285px;
+	}
+	.footer-uls h5 {
+		padding-right: 70px;
+	}
+	.footer-ul-3 h5 {
+		padding-right: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/**/
+}
+
